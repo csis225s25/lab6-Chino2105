@@ -3,7 +3,7 @@ import javax.swing.*;
 
 /**
  * Lab 6 starter example
- * 
+ * @author Melvin and Kola
  * @author Jim Teresco
  * @author Ira Goldstein
  * @version Spring 2025
@@ -23,7 +23,23 @@ class GraphicsPanel extends JPanel {
         // the Graphics object passed to this method has many methods
         // we can use to draw in the area of the panel, one of which
         // allows us to draw a String at a given x,y position
-        g.drawString("Hello, Java Graphics World!", 0, 20);
+        g.drawString("Hello, Java Graphics World!", 0, 0);
+        String temp  = "Hello, Java Graphics World!";
+        
+        FontMetrics fm = g.getFontMetrics();
+        
+        Font FO = new Font("Arial", Font.BOLD, 20);
+        g.setFont(FO);
+        setBackground(Color.red);
+        g.setColor(Color.white);
+        
+
+        int x =  getWidth() / 2 - fm.stringWidth(temp) / 2;
+        int y = getHeight() / 2 - fm.getAscent() / 2;
+       
+        
+
+        g.drawString(temp ,(int) x , (int) y);
     }
 }
 
