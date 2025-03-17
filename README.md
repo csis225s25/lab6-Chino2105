@@ -1,6 +1,8 @@
 # Lab6 - Graphics and Mouse Events
 CSIS-225 Lab , Spring 2025
 # Google Doc URL:
+https://docs.google.com/document/d/17CPIBMZavMFeUNZoxdJheXgACFcyx4ySAbl9qZZlpXA/edit?usp=sharing
+
 https://github.com/csis225s25/lab6-Chino2105.git
 
 
